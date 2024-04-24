@@ -9,7 +9,8 @@ export default function ContactarPsicologo() {
         <div className="space-y-12 pt-12 pb-12">
 
             <div className="border-b border-gray-900/10 p-16 ml-24 mr-24 bg-white rounded-lg">
-                <h1 className="text-center font-bold">Psicologos Disponibles</h1>
+                <h1 className="text-center font-bold ss:text-[30px] text-[40px] text-black 
+                ss:leading-[100.8px] leading-[75px]">Psicólogos Disponibles</h1>
                 <div className="pt-6 pb-6 grid gap-x-6 gap-y-8 sm:grid-cols-2">
                     <div className="sm:col-span-2">
                         <label htmlFor="first-name" className="block text-sm font-medium leading-6 text-gray-900">
@@ -51,7 +52,7 @@ export default function ContactarPsicologo() {
                             id="country"
                             name="country"
                             autoComplete="country-name"
-                            className="font-sans block bg-gray-300 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6 p-3"
+                            className="h-[36px] font-sans block bg-gray-300 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6 p-3"
                             >
                             <option>San Isidro</option>
                             <option>San Miguel</option>

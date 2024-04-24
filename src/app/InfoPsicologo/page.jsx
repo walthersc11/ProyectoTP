@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react'
 import {Input} from "@nextui-org/react";
-export default function InfoPersonal() {
-  return (            
+
+export default function InfoPsicologo () {
+  return (
     <form>
         <div className="space-y-12  m-16">
 
-            <div className="bg-neutral-50  rounded-3xl border-b border-gray-900/10 px-24 py-16">
-                <h1 className="text-xl font-bold leading-7 text-gray-900">Información Personal del Paciente</h1>
+            <div className="bg-neutral-50 rounded-3xl border-b border-gray-900/10 px-24 py-16">
+                <h1 className="text-xl font-bold leading-7 text-gray-900">Información Personal del Psicólogo</h1>
                 <p className="mt-1 text-sm leading-6 text-gray-600">Puede modificar su información personal aqui </p>
 
                 <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
@@ -83,52 +84,7 @@ export default function InfoPersonal() {
                             className="font-sans block bg-gray-300 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6 p-3"
                             />
                         </div>
-                    </div>
-
-                    <div className="sm:col-span-2">
-                        <label htmlFor="student-code" className="block text-sm font-medium leading-6 text-gray-900">
-                            Codigo de Estudiante
-                        </label>
-                        <div className="mt-2">
-                            <input
-                            type="text"
-                            name="student-code"
-                            id="student-code"
-                            className="font-sans block bg-gray-300 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6 p-3"
-                            />
-                        </div>
-                    </div>
-
-                    <div className="sm:col-span-2">
-                        <label htmlFor="semester" className="block text-sm font-medium leading-6 text-gray-900">
-                            Ciclo actual
-                        </label>
-                        <div className="mt-2">
-                            <input
-                            type="text"
-                            name="semester"
-                            id="semester"
-                            className="font-sans block bg-gray-300 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6 p-3"
-                            />
-                        </div>
-                    </div>
-                    
-                    <div className="sm:col-span-3">
-                        <label htmlFor="mayor" className="block text-sm font-medium leading-6 text-gray-900">
-                            Carrera
-                        </label>
-                        <div className="mt-2">
-                            <select
-                            id="mayor"
-                            name="mayor"
-                            className="font-sans block bg-gray-300 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset sm:max-w-xs sm:text-sm sm:leading-6 p-3"
-                            >
-                            <option>Ingeniería de Sistema de Información</option>
-                            <option>Ingeniería de Software</option>
-                            <option>Ciencias de la computación</option>
-                            </select>
-                        </div>
-                    </div>
+                    </div>                    
                     
                     <div className="sm:col-span-4">
                         <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">
@@ -187,6 +143,5 @@ export default function InfoPersonal() {
         </div>
 
     </form>
-    
   )
 }

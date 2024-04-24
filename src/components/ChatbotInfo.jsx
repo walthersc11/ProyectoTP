@@ -5,10 +5,8 @@ export default function ChatbotInfo () {
   const imagenes = {
     rightarrow: <Image src="/right-arrow.svg" width={26} height={16}/>
   }
-
-
   return (
-    <section className='flex md:flex-row flex-col sm:py-16 py-16 '>
+    <section className='flex md:flex-row flex-col sm:py-16 p-16 '>
       <div className='flex-1 flex justify-center justify-items-start flex-col px-16 sm:px-16'>
         
         <div className="flex flex-row justify-between items-center w-full">

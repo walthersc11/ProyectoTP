@@ -32,6 +32,6 @@ export default function Recuperar () {
                 </div>
                 
             </div>
-        </section>
+    </section>
   )
 }

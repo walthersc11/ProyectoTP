@@ -1,8 +1,10 @@
 'use client'
 import React from 'react';
-import {Calendar} from "@nextui-org/react";
+import {Calendar} from "@nextui-org/calendar";
 import Image from "next/image";
 import {parseDate} from '@internationalized/date';
+import {today, getLocalTimeZone} from "@internationalized/date";
+
 
 export default function Agenda () {
   return (
@@ -64,7 +66,7 @@ export default function Agenda () {
               </div>
             </div>
             <div className="flex flex-col gap-x-4 justify-center items-center">
-            <Calendar aria-label="Date (Uncontrolled)" defaultValue={parseDate("2020-02-03")} />
+              <Calendar aria-label="Date (Uncontrolled)" defaultValue={today(getLocalTimeZone())} />
             </div>
           </div>
           <button className='text-[20px] shadow-lg font-bold h-12 w-1/2 text-slate-50 my-6 
